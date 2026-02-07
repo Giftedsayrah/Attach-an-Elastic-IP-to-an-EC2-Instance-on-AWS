@@ -7,6 +7,7 @@ An **Elastic IP (EIP)** is a static public IPv4 address provided by AWS. Unlike 
 - Production workloads requiring consistent public access
 
 ### Step 1: Log in to the AWS Management Console
+
 ![Step](images/01-aws-console-login.png)
 
 ### Step 2: Verify the EC2 Instance
@@ -16,6 +17,7 @@ An **Elastic IP (EIP)** is a static public IPv4 address provided by AWS. Unlike 
 - Click **Instances**
 
 - Confirm that the instance named **`devops-ec2`** exists
+  
 ![Step](images/02-verify-ec2-instance.png)
 
 ### Step 3: Locate the Elastic IP
@@ -25,6 +27,7 @@ An **Elastic IP (EIP)** is a static public IPv4 address provided by AWS. Unlike 
 - Click **Elastic IPs**
 
 - Select the Elastic IP named **`devops-ec2-eip`**
+  
 ![Step](images/03-locate-elastic-ip.png)
 ### Step 4: Associate the Elastic IP
 
@@ -35,6 +38,7 @@ An **Elastic IP (EIP)** is a static public IPv4 address provided by AWS. Unlike 
 - Select **`devops-ec2`** as the instance
 
 - Click **Associate**
+  
 ![Step](images/04-associate.png)
 
 ### Step 5: Verify the Association
@@ -43,6 +47,7 @@ An **Elastic IP (EIP)** is a static public IPv4 address provided by AWS. Unlike 
 
 - Check the EC2 instance details to ensure the public IPv4 address matches the Elastic IP
 ![Step](images/05-verification.png)
+
 ![Step](images/06-verification.png)
 
 
